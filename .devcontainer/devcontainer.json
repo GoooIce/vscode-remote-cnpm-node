@@ -1,5 +1,5 @@
 {
-    "name": "Node.js Sample",
+    "name": "Node.js Remote",
     "dockerFile": "Dockerfile",
 
     // Specifies a list of ports that should be published.
@@ -16,7 +16,7 @@
     },
 
     // Specifies a command that should be run after the container has been created.
-    "postCreateCommand": "yarn install",
+    "postCreateCommand": "cnpm install",
 
     "extensions": [
         "dbaeumer.vscode-eslint"
